@@ -1,0 +1,46 @@
+/*******************************************************************************
+ * Footer                                                                      *
+ *******************************************************************************/
+.master-footer {
+    background-color: #122451;
+    color: lightgray;
+    position: fixed;
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+    text-align: right;
+    padding: 12px;
+    z-index: -1; 
+    background-image: url("/static/images/logo_transparent_flipped.png");
+    background-repeat: no-repeat;
+    background-position: left; 
+    background-position-y: top;
+}
+
+.content {
+    margin-top: 80px;
+}
+
+.master {
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+}
+
+.sub_nav > li > a {
+    padding: 4px 6px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: white;
+}
+
+.navbar-inverse {
+    background-color: #122451;
+    background-image: url("/static/images/logo_transparent.png");
+    background-repeat: no-repeat;
+    background-position: right; 
+    background-position-y: top;
+}
