@@ -1,0 +1,152 @@
+/*******************************************************************************
+ * Body                                                                       *
+ *******************************************************************************/
+.body {
+  margin: 0 auto; 
+  width: 860px;
+}
+
+body {
+  font-size: 15px;
+  text-rendering: optimizeLegibility !important;
+}
+
+/*******************************************************************************
+ * Layout                                                                      *
+ *******************************************************************************/
+div.side_navigation {
+  width: 18%; 
+  float: left; 
+  margin-top: 20px; 
+  height: 100%
+}
+
+div.side_navigation ul {
+  padding-left: 12px;
+}
+
+div.side_navigation ul li {
+  list-style: none;
+}
+
+div.side_navigation ul li + li {
+  border-top: 1px solid #ddd;
+}
+
+div.content {
+  width: 80%; 
+  float: left;
+  margin-left: 1em;
+}
+
+div.container {
+  width: 100%;
+}
+
+/*******************************************************************************
+ * Links                                                                       *
+ *******************************************************************************/
+a:link, 
+a:visited, 
+a:hover, 
+a:active {
+  color: dodgerblue;  
+  text-decoration: none;
+}
+
+h1 a:link,
+h1 a:visited,
+h2 a:link,
+h2 a:visited,
+h3 a:link,
+h2 a:visited {
+  color: black;
+}
+    
+/*******************************************************************************
+ * Footer                                                                      *
+ *******************************************************************************/
+.master-footer {
+  background: #434d6e;
+  color: lightgray;
+  position: fixed;
+  bottom: 0; 
+  left: 0; 
+  right: 0;
+  text-align: right;
+  padding: 8px;
+  z-index: -1; 
+}
+
+/*******************************************************************************
+ * Master                                                                      *
+ *******************************************************************************/
+.master-content {
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    position: relative;
+}
+
+/*******************************************************************************
+ * Header                                                                      *
+ *******************************************************************************/
+header {
+  background-color: gainsboro;
+  background-image: url("/static/images/logo_transparent.png");
+  background-repeat: no-repeat;
+  background-position: right; 
+  background-position-y: top;
+  padding: 0.2em 0 0 0;
+}
+
+header > h1 {
+  font-size: 16px;
+  color: gray;
+  font-color: gray;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none; 
+  margin: 0 auto; 
+  width: 860px;
+  font-weight: bold;
+}
+
+header nav li {
+  float: left; 
+  margin: 0;
+}
+
+header nav {
+    background: #6ab4cc;
+    font-size: 1.2em;
+    height: 40px;
+    line-height: 30px;
+}
+
+header nav a:link,
+header nav a:visited {
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    padding: 5px 1.5em;
+    text-decoration: none;
+}
+header nav a:hover, 
+header nav a:active,
+header nav .active a:link, 
+header nav .active a:visited {
+    background: dodgerblue;
+    color: #fff;
+    text-shadow: none !important;
+}
+
+/*******************************************************************************
+ * Global                                                                      *
+ *******************************************************************************/
+
+* {
+    box-sizing: unset;
+}
