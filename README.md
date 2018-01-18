@@ -1,3 +1,10 @@
-# busino.github.io
+# Website for busino
 
-http://busino.github.io
+busino.github.io
+www.busino.ch
+
+Built with Lektor.
+
+See source repo https://github.com/busino/busino_lektor.
+
+
