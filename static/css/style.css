@@ -9,22 +9,22 @@
     left: 0; 
     right: 0;
     text-align: right;
-    padding: 12px;
+    padding: 6px;
     z-index: -1; 
-    background-image: url("/static/images/logo_transparent_flipped.png");
-    background-repeat: no-repeat;
-    background-position: left; 
-    background-position-y: top;
 }
 
 .content {
-    margin-top: 80px;
+    margin-top: 60px;
+}
+
+body {
+    color: #eeeeee;
 }
 
 .master {
     margin-bottom: 60px;
     padding-bottom: 60px;
-    background-color: #fff;
+    background-color: #000;
     position: relative;
     width: 100%;
 }
@@ -39,8 +39,8 @@
 
 .navbar-inverse {
     background-color: #122451;
-    background-image: url("/static/images/logo_transparent.png");
-    background-repeat: no-repeat;
-    background-position: right; 
-    background-position-y: top;
+}
+
+#side_navigation {
+    margin-top: 12px;
 }
